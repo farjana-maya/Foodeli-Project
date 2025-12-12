@@ -1,0 +1,312 @@
+﻿
+.media-border-bottom {
+border-bottom: 1px solid #E7E7E7;
+}
+
+.media-padding-bottom {
+padding-bottom: 5px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.field-required {
+    color: red;
+}
+.candidate-list > span {
+    float:left;
+}
+
+.candidate-list > span:not(:first-child) {
+    padding-left:20px;
+}
+.container-table-inline {
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  overflow-x: scroll;
+}
+
+dl {
+    margin-bottom: 50px;
+}
+
+dl dt {
+    background: #5f9be3;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+dl dd {
+    margin: 2px 0;
+    padding: 5px 0;
+}
+/* Responsive Styles */
+.agileinfofooter {
+    padding: 50px 100px;
+}
+
+.agileinfofooter-grids {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #333;
+}
+
+.agileinfofooter-grid {
+    padding: 0;
+}
+
+    .agileinfofooter-grid ul li {
+        display: block;
+        line-height: 30px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-family: 'Montserrat', sans-serif;
+        color: #000;
+    }
+
+        .agileinfofooter-grid ul li a {
+            color: #000;
+            text-decoration: none !important;
+        }
+
+            .agileinfofooter-grid ul li a:hover {
+                background-color: none !important;
+            }
+
+.agileinfofooter a:hover {
+    color: #000;
+    background-color: none;
+}
+
+/*-- //Footer --*/
+
+
+
+/*-- Copyright --*/
+
+.w3lscopyrightaits {
+    padding: 0 100px 50px;
+}
+
+.w3lscopyrightaitsgrid {
+    padding: 0;
+}
+
+.w3lscopyrightaitsgrid1 p {
+    color: #000;
+    margin-top: 10px;
+}
+
+    .w3lscopyrightaitsgrid1 p a {
+        font-family: 'Montserrat', sans-serif;
+        color: #000;
+    }
+
+        .w3lscopyrightaitsgrid1 p a:hover {
+            color: #c41228;
+        }
+
+/*-- Footer-Social-Icons --*/
+
+.agilesocialwthree {
+    text-align: right;
+}
+
+ul.social-icons li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.agilesocialwthree ul.social-icons li a {
+    font-size: 30px;
+    color: #000;
+}
+
+ul.social-icons li a.facebook:hover {
+    color: #3b5998;
+}
+
+ul.social-icons li a.twitter:hover {
+    color: #1dcaff;
+}
+
+ul.social-icons li a.googleplus:hover {
+    color: #d34836;
+}
+
+ul.social-icons li a.instagram:hover {
+    color: #517fa4;
+}
+
+ul.social-icons li a.youtube:hover {
+    color: #bb0000;
+}
+.home-media-heading {
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.cv-photo {
+    width: 175px !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.cv-venor-sidebar {
+    text-align: center!important;
+    background-color: #333 !important;
+    display: block;
+    height: 70px !important;
+    padding: 10px;
+    color: white !important;
+}
+@media screen{
+    .hidden-screen {
+        display: none !important;
+    }
+}
+/*-- //Footer-Social-Icons --*/
+
+@media print {
+    @page {
+        size: auto; /* auto is the initial value */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+        font-size: 12px !important;
+    }
+
+
+    @page :Top {
+        margin: 5px;
+    }
+
+    @page :left {
+        margin-left: 5cm;
+        margin-right: 5cm;
+    }
+
+    @page :right {
+        margin-left: 5cm;
+        margin-right: 5cm;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    body {
+        clear: both;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+        font-size: 12px !important;
+    }
+
+    .table {
+        font-size: 12px !important;
+        border: 1px solid #000000;
+    }
+    .table thead > tr > th {
+        /*white-space: nowrap;*/
+        padding: 0px;
+        border: 1px solid #000000;
+        padding: 0 2px;
+        line-height: 20px;
+    }
+
+    .table thead > tr > th > label {
+        display: inline-block;
+        /*margin-bottom: 0px;*/
+        text-align: center;
+    }
+
+    .table tbody > tr > td {
+        /*white-space: nowrap;*/
+        padding: 0px;
+        border: 1px solid #000000;
+        padding: 0 2px;
+        line-height: 23px;
+    }
+
+    .table tbody > tr > td > label {
+        display: inline-block;
+        font-weight: normal;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .bg-danger{
+        background-color: #d4d4d4 !important;
+    }
+    .hidden-print {
+        display: none !important;
+    }
+    .cv-venor-sidebar {
+        text-align: center !important;
+        background-color: #333 !important;
+        display: block;
+        height: 70px !important;
+        padding: 10px;
+        color: white !important;
+        font-weight:bold;
+    }
+
+}
+
+/*NewCSS*/
+.navbar a:hover, .dropdown:hover  {
+    background-color: #517fa4;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-menu a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-menu a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

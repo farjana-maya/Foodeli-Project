@@ -1,0 +1,15 @@
+﻿function printAttendanceRecord(printingContent) {
+    //var newWin = window.frames["printf"];
+    //newWin.document.write('<head><link rel="stylesheet" type="text/css" href="/Content/temp.css" ></head><body  onload="window.print()">' + $('#user_content').html() + '</body>');
+    //newWin.document.close();
+
+    var headercss = "<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>" +
+    "<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>" +
+    "<link href='/Content/bootstrap.min.css' rel='stylesheet' />" +
+    "<link rel=\"stylesheet\" type=\"text/css\" href=\"/Content/Site.css\" />" +
+    "<link href='/css/font-awesome.min.css' rel='stylesheet' />";
+
+    var newWin = window.frames["printf"];
+    newWin.document.write('<head>' + headercss + '</head><body  onload="window.print()">' + printingContent.html() + '</body>');
+    newWin.document.close();
+}
